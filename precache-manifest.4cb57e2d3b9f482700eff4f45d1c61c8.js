@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c40f401644f500fcd269",
+    "revision": "82cc60bd7d9b1e97e49b",
     "url": "/ReactReduxPeliculas/static/css/main.4ee0f4da.chunk.css"
   },
   {
-    "revision": "c40f401644f500fcd269",
-    "url": "/ReactReduxPeliculas/static/js/main.c40f4016.chunk.js"
+    "revision": "82cc60bd7d9b1e97e49b",
+    "url": "/ReactReduxPeliculas/static/js/main.82cc60bd.chunk.js"
   },
   {
     "revision": "a27739cef17b1fe97beb",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ReactReduxPeliculas/static/media/reactMovie_logo.08494abf.png"
   },
   {
-    "revision": "5363b21f307593c3ef6b44d00da90b63",
+    "revision": "edd7173612c38d9654d4cd7153739c24",
     "url": "/ReactReduxPeliculas/index.html"
   }
 ];
