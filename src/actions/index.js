@@ -20,7 +20,7 @@ export function showLoadingSpinner(){
 
 //action creator for Home
 export function getPopularMovies() {
-  const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=es-ES&page=1`;
+  const endpoint = `${API_URL}/movie/popular?api_key=${API_KEY}&language=es-ES&page=1`;
   const request = fetch(endpoint)
     .then((result) => result.json())
     .then((result) => {
@@ -37,9 +37,9 @@ export function searchMovies(searchTerm) {
   let endpoint;
 
   if (!searchTerm) {
-    endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=es-ES&page=1`;
+    endpoint = `${API_URL}/movie/popular?api_key=${API_KEY}&language=es-ES&page=1`;
   } else {
-    endpoint = `${API_URL}search/movie?api_key=${API_KEY}&language=es-ES&query=${searchTerm}`;
+    endpoint = `${API_URL}/search/movie?api_key=${API_KEY}&language=es-ES&query=${searchTerm}`;
   }
 
   const request = fetch(endpoint)
@@ -58,11 +58,9 @@ export function searchMovies(searchTerm) {
 export function loadMoreMovies(searchTerm, currentPage) {
   let endpoint;
   if (!searchTerm) {
-    endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=es-ES&page=${currentPage +
-      1}`;
+    endpoint = `${API_URL}/movie/popular?api_key=${API_KEY}&language=es-ES&page=${currentPage + 1}`;
   } else {
-    endpoint = `${API_URL}search/movie?api_key=${API_KEY}&language=es-ES&query=${searchTerm}&page=${currentPage +
-      1}`;
+    endpoint = `${API_URL}/search/movie?api_key=${API_KEY}&language=es-ES&query=${searchTerm}&page=${currentPage + 1}`;
   }
   const request = fetch(endpoint)
     .then((result) => result.json())
