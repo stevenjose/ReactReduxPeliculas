@@ -1,7 +1,7 @@
 {
   "main.css": "/ReactReduxPeliculas/static/css/main.4ee0f4da.chunk.css",
-  "main.js": "/ReactReduxPeliculas/static/js/main.c3d92218.chunk.js",
-  "main.js.map": "/ReactReduxPeliculas/static/js/main.c3d92218.chunk.js.map",
+  "main.js": "/ReactReduxPeliculas/static/js/main.82df04e4.chunk.js",
+  "main.js.map": "/ReactReduxPeliculas/static/js/main.82df04e4.chunk.js.map",
   "static/js/1.a27739ce.chunk.js": "/ReactReduxPeliculas/static/js/1.a27739ce.chunk.js",
   "static/js/1.a27739ce.chunk.js.map": "/ReactReduxPeliculas/static/js/1.a27739ce.chunk.js.map",
   "runtime~main.js": "/ReactReduxPeliculas/static/js/runtime~main.32cc4e54.js",
@@ -9,6 +9,6 @@
   "static/media/reactMovie_logo.png": "/ReactReduxPeliculas/static/media/reactMovie_logo.08494abf.png",
   "static/css/main.4ee0f4da.chunk.css.map": "/ReactReduxPeliculas/static/css/main.4ee0f4da.chunk.css.map",
   "index.html": "/ReactReduxPeliculas/index.html",
-  "precache-manifest.d68d4dc19d1c1fdf5da12762933ce2ce.js": "/ReactReduxPeliculas/precache-manifest.d68d4dc19d1c1fdf5da12762933ce2ce.js",
+  "precache-manifest.b2aa901e0fa8de0f3f826952fc1af45a.js": "/ReactReduxPeliculas/precache-manifest.b2aa901e0fa8de0f3f826952fc1af45a.js",
   "service-worker.js": "/ReactReduxPeliculas/service-worker.js"
 }
